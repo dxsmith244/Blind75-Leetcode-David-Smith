@@ -1,0 +1,12 @@
+## Efficiency
+
+### How is this efficient?
+
+ This solution does not use any additional data structures (like a hashmap), so its space complexity is O(1) aside from the output array, which makes it efficient in terms of memory usage, the logic is also very straight forward.
+
+### Why is this not efficient and how would I make this more efficient?
+1.	Time Complexity: This solution has a time complexity of O(n²), where n is the number of elements in the nums array. For each element at index i, the inner loop iterates over the remaining n - i - 1 elements, which results in a quadratic number of comparisons. This is inefficient for large arrays, as the number of comparisons grows quickly with the array size.
+
+2.	Scalability: For larger inputs, a nested loop approach becomes much slower, and performance can degrade significantly, especially if the nums array has thousands of elements.
+
+3.	Alternative (More Efficient) Solution Available: A hashmap solution would improve the time complexity to O(n) by storing elements and their indices as you iterate through the array.

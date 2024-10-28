@@ -13,5 +13,3 @@ public class twoSum{
         return new int[]{};
     }
 }
-
-}
