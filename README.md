@@ -1,3 +1,7 @@
+# Purpose of this repo
+Practicing the Blind 75 algorithm problems: analyzing solution efficiency and exploring optimizations.
+
+### My progress so far:
 
 ## Array
 
